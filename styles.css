@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* easier to size elements*/
+  font-family: "Franklin Gothic", sans-serif; /* given according to priority*/
+  font-weight: normal; /* thichness of character in text */
+}
+
+body {
+    padding:0; /* no padding, backgroud fills entire screen*/
+    margin:0; /* no margin*/
+    background: linear-gradient(to right, rgb(80, 80, 226), rgb(73, 163, 73));
+}
